@@ -32,7 +32,7 @@ while resp == 's' or resp == 'S':
 # Verifica se pelo menos um número foi digitado antes de calcular a média
 if qtde > 0:
     # 4. Calcula a média
-    media = soma / (qtde-1)
+    media = soma / (qtde+1)
 
     # 5. Exibe o resultado final
     print(f"A média dos números digitados é: {media:.2f}")
